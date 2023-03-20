@@ -77,7 +77,7 @@ const menuOptions = computed<MenuGroupOption[]>(() =>
           <div>
             IT-Tools
 
-            <n-button
+            <!-- <n-button
               text
               tag="a"
               target="_blank"
@@ -87,9 +87,9 @@ const menuOptions = computed<MenuGroupOption[]>(() =>
               :href="`https://github.com/CorentinTh/it-tools/tree/v${version}`"
             >
               v{{ version }}
-            </n-button>
+            </n-button> -->
 
-            <template v-if="commitSha && commitSha.length > 0">
+            <!-- <template v-if="commitSha && commitSha.length > 0">
               -
               <n-button
                 text
@@ -102,14 +102,14 @@ const menuOptions = computed<MenuGroupOption[]>(() =>
               >
                 {{ commitSha }}
               </n-button>
-            </template>
+            </template> -->
           </div>
-          <div>
+          <!-- <div>
             © {{ new Date().getFullYear() }}
             <n-button text tag="a" target="_blank" rel="noopener" type="primary" href="https://github.com/CorentinTh">
               Corentin Thomasset
             </n-button>
-          </div>
+          </div> -->
         </div>
       </div>
     </template>
@@ -149,7 +149,7 @@ const menuOptions = computed<MenuGroupOption[]>(() =>
 
         <navbar-buttons v-if="!styleStore.isSmallScreen" />
 
-        <n-tooltip trigger="hover">
+        <!-- <n-tooltip trigger="hover">
           <template #trigger>
             <n-button
               round
@@ -167,7 +167,7 @@ const menuOptions = computed<MenuGroupOption[]>(() =>
             </n-button>
           </template>
           ❤ Support IT Tools development !
-        </n-tooltip>
+        </n-tooltip> -->
       </div>
       <slot />
     </template>

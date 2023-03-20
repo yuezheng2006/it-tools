@@ -13,7 +13,7 @@ useHead({ title: 'IT Tools - Handy online tools for developers' });
 <template>
   <div class="home-page">
     <div class="grid-wrapper">
-      <n-grid x-gap="12" y-gap="12" cols="1 400:2 800:3 1200:4 2000:8">
+      <!-- <n-grid x-gap="12" y-gap="12" cols="1 400:2 800:3 1200:4 2000:8">
         <n-gi>
           <colored-card title="You like it-tools?" :icon="Heart">
             Give us a star on
@@ -35,7 +35,7 @@ useHead({ title: 'IT Tools - Handy online tools for developers' });
             <n-icon :component="Heart" />
           </colored-card>
         </n-gi>
-      </n-grid>
+      </n-grid> -->
 
       <transition name="height">
         <div v-if="toolStore.favoriteTools.length > 0">

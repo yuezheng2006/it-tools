@@ -1,5 +1,5 @@
 <template>
-  <n-tooltip trigger="hover">
+  <!-- <n-tooltip trigger="hover">
     <template #trigger>
       <n-button
         size="large"
@@ -15,9 +15,9 @@
       </n-button>
     </template>
     Github repository
-  </n-tooltip>
+  </n-tooltip> -->
 
-  <n-tooltip trigger="hover">
+  <!-- <n-tooltip trigger="hover">
     <template #trigger>
       <n-button
         size="large"
@@ -33,9 +33,9 @@
       </n-button>
     </template>
     IT Tools' Twitter account
-  </n-tooltip>
+  </n-tooltip> -->
 
-  <router-link to="/about" #="{ navigate, href }" custom>
+  <!-- <router-link to="/about" #="{ navigate, href }" custom>
     <n-tooltip trigger="hover">
       <template #trigger>
         <n-button tag="a" :href="href" circle quaternary size="large" aria-label="About" @click="navigate">
@@ -44,7 +44,7 @@
       </template>
       About
     </n-tooltip>
-  </router-link>
+  </router-link> -->
   <n-tooltip trigger="hover">
     <template #trigger>
       <n-button size="large" circle quaternary aria-label="Toggle dark/light mode" @click="isDarkTheme = !isDarkTheme">
